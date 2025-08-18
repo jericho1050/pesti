@@ -1,0 +1,12 @@
+{
+  "brown-planthopper": {
+    "chemical": "Imidacloprid",
+    "dosage": "50 g/ha",
+    "timing": "Apply at early infestation"
+  },
+  "stem-borer": {
+    "chemical": "Cartap hydrochloride",
+    "dosage": "300 g/ha",
+    "timing": "Apply at egg-laying stage"
+  }
+}
