@@ -1,0 +1,24 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 34
+
+    defaultConfig {
+        applicationId 'com.pestai'
+        minSdkVersion 21
+        targetSdkVersion 34
+        versionCode 1
+        versionName '1.0'
+        ndk { abiFilters "armeabi-v7a", "arm64-v8a" }
+    }
+}
+
+repositories {
+    google()
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.pytorch:pytorch_android_lite:1.13.1"
+    implementation "org.pytorch:pytorch_android_torchvision:1.13.1"
+}

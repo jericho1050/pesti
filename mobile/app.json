@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "PestAI",
+    "slug": "pest-ai",
+    "version": "1.0.0",
+    "platforms": ["android", "ios"],
+    "assetBundlePatterns": ["**/*"]
+  }
+}

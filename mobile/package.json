@@ -1,0 +1,31 @@
+{
+  "name": "mobile",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "prebuild:android": "expo prebuild --platform android",
+    "prebuild:ios": "expo prebuild --platform ios"
+  },
+  "dependencies": {
+    "@react-navigation/bottom-tabs": "^6.5.7",
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/native-stack": "^6.9.12",
+    "@react-native-async-storage/async-storage": "^1.21.0",
+    "expo": "^51.0.0",
+    "expo-file-system": "^16.0.0",
+    "expo-sqlite": "^13.0.0",
+    "react": "18.2.0",
+    "react-native": "0.74.0",
+    "react-native-vision-camera": "^2.15.4",
+    "@rice-pest-ai/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.0",
+    "@types/react-native": "0.73.0",
+    "typescript": "5.2.2"
+  }
+}

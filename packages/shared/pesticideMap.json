@@ -1,12 +1,8 @@
 {
-  "brown-planthopper": {
-    "chemical": "Imidacloprid",
-    "dosage": "50 g/ha",
-    "timing": "Apply at early infestation"
-  },
-  "stem-borer": {
-    "chemical": "Cartap hydrochloride",
-    "dosage": "300 g/ha",
-    "timing": "Apply at egg-laying stage"
-  }
+  "brown-planthopper": { "chemical": "Imidacloprid", "dosage": "50 g/ha", "timing": "Early infestation" },
+  "green-leafhopper": { "chemical": "Thiamethoxam", "dosage": "25 g/ha", "timing": "At detection" },
+  "rice-leaf-folder": { "chemical": "Lambda-cyhalothrin", "dosage": "12.5 g/ha", "timing": "Larval stage" },
+  "rice-bug": { "chemical": "Deltamethrin", "dosage": "10 g/ha", "timing": "Before heading" },
+  "stem-borer": { "chemical": "Cartap hydrochloride", "dosage": "300 g/ha", "timing": "Egg-laying stage" },
+  "whorl-maggot": { "chemical": "Azadirachtin", "dosage": "spray per label", "timing": "Early whorl damage" }
 }
